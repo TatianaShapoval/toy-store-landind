@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela+Round&display=swap" rel="stylesheet">
+    <link  href="/path/to/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./slick/slick.css">
+ 
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top__inner">
+                        <div class="header-top__contacts">
+                            <a class="header-top__phone" href="tel:+12139745898">
+                                Call Us: +1 213 974-5898
+                            </a>
+                            <a class="header-top__email" href="mailto:toystore@template.com">
+                                Email: toystore@template.com
+                            </a>
+                        </div>
+                        <div class="header-top__social">
+                            <a class="header-top__link" href="#">
+                                <img class="header-top__img" src="./images/icons/twitter-icon.svg" alt="social icon">
+                            </a>
+                            <a class="header-top__link" href="#">
+                                <img class="header-top__img" src="./images/icons/facebook-icon.svg" alt="social icon">
+                            </a>
+                            <a class="header-top__link" href="#">
+                                <img class="header-top__img" src="./images/icons/instagram-icon.svg" alt="social icon">
+                            </a>
+                            <a class="header-top__link" href="#">
+                                <img class="header-top__img" src="./images/icons/pinterest-icon.svg" alt="social icon">
+                            </a>
+                            <a class="header-top__link" href="#">
+                                <img class="header-top__img" src="./images/icons/youtube-icon.svg" alt="social icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="header-main__inner">
+                        <div class="header-main__menu">
+                            <p class="header-main__logo">
+                                ToyStore
+                            </p>
+                            <ul class="header-main__menu-list">
+                                <li class="header-main__menu-item">
+                                    <a class="header-main__menu-link" href="#">
+                                        Catalog
+                                    </a>
+                                </li>
+                                <li class="header-main__menu-item">
+                                    <a class="header-main__menu-link" href="#">
+                                        Delivery
+                                    </a>
+                                </li>
+                                <li class="header-main__menu-item">
+                                    <a class="header-main__menu-link" href="#">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="header-main__menu-item">
+                                    <a class="header-main__menu-link" href="#">
+                                        Contacts
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-main__cart">
+                            <div class="header-main__cart-text">
+                                <a class="header-main__cart-link" href="#">
+                                    Cart
+                                </a>
+                            </div>
+                            <div class="header-main__cart-item">
+                                <a class="header-main__cart-basket" href="#">
+                                    <img class="header-main__cart-img" src="./images/icons/basket.svg" alt="basket image">
+                                </a>
+                            </div>
+                            <div class="header-main__cart-item">
+                                <a class="header-main__cart-amount" href="#">
+                                    0
+                                </a>
+                            </div>
+                            <button class="header-main__hidden-btn">
+                                <span class="header-main__hidden-line"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="main">
+            <section class="top">
+                <div class="top__inner">
+                    <div class="top__content">
+                        <p class="top__subtitle">
+                            Say Hello to ToyStore!
+                        </p>
+                        <h2 class="top__title">
+                            Free Ecommerce Template for Webflow
+                        </h2>
+                        <button class="top__btn">
+                            Open Catalog
+                        </button>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="categories">
+                <div class="container">
+                    <div class="categories__inner">
+                        <div class="categories__item categories__item-stuffed">
+                            <div class="categories__content">
+                                <p class="categories__title">
+                                    <a class="categories__title-link" href="#">
+                                        Stuffed Animals
+                                    </a> 
+                                </p>
+                                <button class="categories__btn">
+                                    Shop Now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="categories__item categories__item-wooden">
+                            <div class="categories__content">
+                                <p class="categories__title">
+                                    <a class="categories__title-link" href="#">
+                                        Wooden Toys
+                                    </a>      
+                                </p>
+                                <button class="categories__btn">
+                                    Shop Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="shop">
+                <div class="container">
+                    <div class="shop__inner">
+                        <div class="shop__box">
+                            <div class="shop__top">
+                                <h3 class="shop__top-title">
+                                    Stuffed Animals
+                                </h3>
+                                <a class="shop__top-link" href="#">
+                                    See All Toys
+                                </a>
+                            </div>
+                            <div class="shop__line">
+                                <span></span>
+                            </div>
+                            <div class="shop__items">
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/bear.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">
+                                        Teddy Bear
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 30.00 USD
+                                    </button>
+                                </div>
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/plush.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">
+                                        Mega Plush Toy
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 38.00 USD
+                                    </button>
+                                </div>
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/dog.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">   
+                                        Cute Dog
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 24.00 USD
+                                    </button>
+                                </div>
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/friend.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">
+                                        Little Friend
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 27.00 USD
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop__box">
+                            <div class="shop__top">
+                                <h3 class="shop__top-title">
+                                    Wooden Toys
+                                </h3>
+                                <a class="shop__top-link" href="#">
+                                    See All Toys
+                                </a>
+                            </div>
+                            <div class="shop__line">
+                                <span></span>
+                            </div>
+                            <div class="shop__items">
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/flower.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">
+                                        Happy Flower
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 38.00 USD
+                                    </button>
+                                </div>
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/machine.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">
+                                        Lift Machine
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 24.00 USD
+                                    </button>
+                                </div>
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/camera.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">   
+                                        Wooden Camera
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 32.00 USD
+                                    </button>
+                                </div>
+                                <div class="shop__item">
+                                    <a class="shop__item-img" href="#">
+                                        <img src="./images/rabbit.png" alt="shop image">
+                                    </a>
+                                    <h4 class="shop__item-title">
+                                        Little Rabbit
+                                    </h4>
+                                    <button class="shop__item-price">
+                                        $ 16.00 USD
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="popup">
+                <div class="popup__inner">
+                    <p class="popup__subtitle">
+                        About The Shop
+                    </p>
+                    <h4 class="popup__title">
+                        Watch Our Story 
+                    </h4>
+                    <p class="popup__text">
+                        There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.
+                    </p>
+                    <div class="popup__button">
+                        <a class="popup__play" data-fancybox href="https://www.youtube.com/watch?v=H-4yodHCvu0">
+                            <img class="popup__play-btn" src="./images/icons/play-icon.svg" alt="play icon">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+           
+        </div>
+
+
+       <footer class="footer">
+           
+            
+        </footer> 
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="/path/to/jquery.fancybox.min.js"></script>  
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

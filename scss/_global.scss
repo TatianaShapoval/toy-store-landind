@@ -1,0 +1,26 @@
+  
+body{
+    @extend %opensans-regular;  
+    font-weight: 400;
+    color: $default;  
+    
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+	flex: 1 1 auto;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title{
+    @extend %varelaround-regular;
+    font-weight: 400;
+}
+
