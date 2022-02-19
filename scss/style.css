@@ -65,7 +65,7 @@ body {
   font-weight: 400;
 }
 
-.title, .header-main__logo, .top__title, .categories__title, .shop__top-title, .shop__item-title, .popup__title {
+.title, .header-main__logo, .top__title, .categories__title, .shop__top-title, .shop__item-title, .popup__title, .offer__title, .offer__info-title, .offer__subsribe-text, .gallery__title {
   font-family: 'Varela Round', sans-serif;
   font-weight: 400;
 }
@@ -487,5 +487,206 @@ body {
   width: 64px;
   height: 64px;
   margin: 0 auto;
+}
+
+.offer {
+  background-color: #F8F8F8;
+  padding: 120px 0;
+}
+
+.offer__subtitle {
+  font-size: 13px;
+  line-height: 16px;
+  color: #A5C926;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.offer__title {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  max-width: 447px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+}
+
+.offer__info {
+  max-width: 451px;
+}
+
+.offer__info-title {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  margin-bottom: 51px;
+  position: relative;
+}
+
+.offer__info-title::after {
+  content: '';
+  position: absolute;
+  background-color: #A5C926;
+  width: 70px;
+  height: 2px;
+  left: 0;
+  bottom: -21px;
+}
+
+.offer__info-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+  margin-bottom: 26px;
+}
+
+.offer__info-btn {
+  background-color: #A5C926;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.offer__subsribe {
+  padding: 100px 20px 0px 20px;
+}
+
+.offer__subscribe-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  padding: 47px;
+}
+
+.offer__subsribe-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.offer__subsribe-icon {
+  background-color: #A5C926;
+  width: 63px;
+  height: 63px;
+  padding: 17px 15px 15px 17px;
+}
+
+.offer__subsribe-text {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  max-width: 343px;
+  padding-left: 23px;
+}
+
+.offer__subsribe-text span {
+  color: #A5C926;
+}
+
+.offer__subsribe-input {
+  height: 47px;
+  width: 376px;
+  border-radius: 24px;
+  border: 2px solid #E5E5E5;
+  background-color: #F8F8F8;
+  margin-right: 16px;
+  padding: 0 20px;
+}
+
+.offer__subsribe-btn {
+  padding: 8px 25px;
+  height: 47px;
+  background-color: #A5C926;
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.gallery {
+  background-color: #F8F8F8;
+  padding-bottom: 119px;
+}
+
+.gallery__inner {
+  text-align: center;
+}
+
+.gallery__subtitle {
+  font-size: 13px;
+  line-height: 16px;
+  color: #A5C926;
+  margin-bottom: 17px;
+}
+
+.gallery__title {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.gallery__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 76px;
+}
+
+.gallery__item {
+  padding: 0 7.5px;
+}
+
+.gallery__btn {
+  padding: 12px 28px;
+  background-color: #A5C926;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
